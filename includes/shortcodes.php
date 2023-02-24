@@ -197,8 +197,9 @@ function dslc_sc_category_description( $atts, $content ) {
  * http://codex.wordpress.org/Function_Reference/the_title
  */
 function dslc_sc_page_title() {
-	$output = the_title( '', '', false );
-	return $output;
+	return "hello test";	
+// 	$output = the_title( '', '', false );
+// 	return $output;
 }
 add_shortcode( 'dslc_page_title', 'dslc_sc_page_title' );
 add_shortcode( 'lbmn_pagetitle', 'dslc_sc_page_title' );
